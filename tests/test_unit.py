@@ -993,6 +993,7 @@ class SerializationDeserializeHostMockedTestCase(TestCase):
                 "number_of_sockets": 2,
                 "cores_per_socket": 3,
                 "system_memory_bytes": 4,
+                "owner_id": uuid4(),
             },
             "stale_timestamp": datetime.now(timezone.utc).isoformat(),
             "reporter": "some reporter",
